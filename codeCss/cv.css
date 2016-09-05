@@ -68,6 +68,12 @@ ul{
 .ofh{
 	overflow: hidden;
 }
+.cf{
+	color: #fff;
+}
+.c0{
+	color: #000;
+}
 /**/
 
 .section {
@@ -84,8 +90,8 @@ ul{
 	/*position: relative;
 	bottom: -120%;*/
 }
-.section3 p { 
-	position: relative; 
+.section3 p {
+	position: relative;
 	bottom: -120%;
 }
 .section4 p {
@@ -104,8 +110,8 @@ header{
 	top: 0;
 	left: 0;
 	z-index: 100;
-	background: #000;
-	opacity: 0.6;
+	/*background: rgba(0,0,0,0.6);*/
+
 
 
 }
@@ -126,7 +132,7 @@ header{
 	margin-top: 12px;
 	padding:1px 5px;
 	height: 26px;
-	border: 1px solid #414141;
+	border: 1px solid #f5f5f5;
 	border-radius: 5px;
 	cursor: pointer;
 	z-index: 999;
@@ -142,12 +148,16 @@ header{
 	position: absolute;
 	top: 30px;
 	left:50px;
-	height: 200px;
+
 	width: 200px;
 	background: #000;
 	display: none;
 	z-index: 999999;
 }
+.QR-code-enlarge img{
+	width: 100%;
+}
+
 /*bg-section1*/
 
 .bg-section1 .large-header {
@@ -212,6 +222,9 @@ canvas{
 	border-radius: 5px;
 }
 
+.photo-show-xs{
+	display: none;
+}
 
 
 .info-show{
@@ -331,7 +344,7 @@ canvas{
 }
 /**/
 .project-instruction{
-	height: 60%;
+	height: 70%;
 	position: relative;
 	bottom: -120%;
 
@@ -365,7 +378,7 @@ canvas{
 }
 .project-instruction-content{
 
-    color: #fff;
+	color: #fff;
 	position: relative;
 	height: 100%;
 }
@@ -519,8 +532,8 @@ h3{
 		text-align: center;
 	}
 	.photo-show img{
-		width: 120px;
-		height: 120px;
+		width: 80px;
+		height: 80px;
 		border-radius: 100px;
 
 	}
@@ -537,6 +550,9 @@ h3{
 	.hidden-xs {
 		display: none !important;
 	}
+	.hidden-show{
+		display: block !important;
+	}
 }
 .photo-show{
 	padding: 0;
@@ -544,11 +560,17 @@ h3{
 }
 /*不同分辨率下字体的控制*/
 @media (min-width: 1200px) {
+	header{
+		background: rgba(0,0,0,0.6);
+	}
 	.cv-h1{
 		font-size: 70px;
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+	header{
+		background: rgba(0,0,0,0.6);
+	}
 	.main-title{
 		width: 60%;
 	}
@@ -559,6 +581,9 @@ h3{
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+	header{
+		background: rgba(0,0,0,0.6);
+	}
 	.main-title{
 		width: 65%;
 	}
@@ -579,6 +604,10 @@ h3{
 	}
 	.word-explain{
 		font-size: 18px;
+	}
+	.info-detail{
+		font-size: 16px;
+
 	}
 }
 @media(max-width: 479px){
@@ -602,14 +631,18 @@ h3{
 		font-size: 12px;
 	}
 	.word-explain{
-		font-size: 17px;
+		font-size: 15px;
 	}
 	.project-title{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.campus-experience{
-		font-size: 16px;
+		font-size: 15px;
 		padding-left: 10px;
+	}
+	.info-detail{
+		font-size: 15px;
+
 	}
 
 }
@@ -618,14 +651,14 @@ h3{
 		display: none;
 	}
 	.info-detail{
-		font-size: 15px;
+		font-size: 14px;
 
 	}
 	.word-explain{
 		font-size: 14px;
 	}
 	.project-title{
-		font-size: 16px;
+		font-size: 15px;
 	}
 	.campus-experience{
 		font-size: 14px;

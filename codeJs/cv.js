@@ -73,7 +73,8 @@ function fullpage(){
 				$('.project-instruction').delay(500).animate({
 					bottom: '0'
 				}, 1500, 'easeOutExpo');
-				$('.nav-time-1').click(function(){
+
+				$('.nav-time-1').unbind('click').click(function(){
 					$(this).addClass('nav-time-active');
 					$(this).siblings().removeClass('nav-time-active');
 					var topValue=$("#market").position().top;
@@ -84,10 +85,9 @@ function fullpage(){
 						});
 					}
 				});
-				$('.nav-time-2').click(function(){
+				$('.nav-time-2').unbind('click').click(function(){
 					$(this).addClass('nav-time-active');
 					$(this).siblings().removeClass('nav-time-active');
-
 					var topValue=$("#ebdap").position().top;
 
 					if(!topValue){
@@ -126,7 +126,15 @@ function fullpage(){
 
 			}
 			if(index == '4'){
-				$('.section4').find('p').fadeOut(2000);
+				$('.project-instruction').animate({
+					bottom: '-120%',
+				}, 1500, 'easeOutExpo',function(){
+					$('.nav-time-1').addClass('nav-time-active');
+					$('.nav-time-1').siblings().removeClass('nav-time-active');
+					$("#ebdap").css('top','0');
+					$("#market").css('top','130%');
+				});
+
 			}
 			if(index == '5'){
 				$(".section5").find('.campus-info').fadeOut(2000);
