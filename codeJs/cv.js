@@ -1,4 +1,9 @@
 $(function(){
+/****函数调用区****/
+fullpage();
+bg();
+showSkill();
+QRshow();
 
 /****绘制背景函数****/
 function bg() {
@@ -27,7 +32,7 @@ function bg() {
 		// create particles
 		triangles = [];
 		for(var x = 0; x < 480; x++) {
-			addTriangle(x);
+			addTriangle(x*10);
 		}
 	}
 
@@ -273,10 +278,6 @@ function fullpage(){
 
 };
 /***********************************************************************************************/
-/****函数调用区****/
-bg();
-showSkill();
-QRshow();
-fullpage();
+
 
 })
