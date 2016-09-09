@@ -1,4 +1,4 @@
-$(window).load(function(){
+$(function(){
 
 /****绘制背景函数****/
 function bg() {
