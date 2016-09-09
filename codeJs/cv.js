@@ -1,7 +1,7 @@
 $(function(){
 /****函数调用区****/
-// fullpage();
-bg();
+fullpage();
+// bg();
 showSkill();
 QRshow();
 
