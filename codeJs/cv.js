@@ -1,6 +1,6 @@
 $(function(){
 /****函数调用区****/
-fullpage();
+// fullpage();
 bg();
 showSkill();
 QRshow();
