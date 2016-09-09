@@ -1,10 +1,5 @@
 $(window).load(function(){
 
-/****函数调用区****/
-bg();
-showSkill();
-QRshow();
-fullpage();
 /****绘制背景函数****/
 function bg() {
 
