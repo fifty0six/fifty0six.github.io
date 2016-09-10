@@ -146,20 +146,7 @@ function fullpage(){
 			}
 		}
 	});
-	$(window).resize(function(){
-        autoScrolling();
-    	});
 
-    	function autoScrolling(){
-        var $ww = $(window).width();
-        if($ww < 320){
-            $.fn.fullpage.setAutoScrolling(false);
-        } else {
-            $.fn.fullpage.setAutoScrolling(true);
-        }
-    }
-
-    autoScrolling();
 
 
 };
