@@ -86,6 +86,9 @@ ul{
 	position: relative;
 	bottom: -1200%;
 }
+.section1 {
+	height:800px;	
+}
 .section2 .pInfo {
 	/*position: relative;
 	bottom: -120%;*/
