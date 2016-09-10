@@ -40,7 +40,7 @@ function fullpage(){
 				$(".border-title").animate({width:'30%'},1000,function(){
 					$(".border-title p").slideDown(400);
 				});
-				$('.DpInfo').delay(1500).animate({
+				$('.DpInfo').delay(1000).animate({
 					bottom: '0',
 				}, 1500, 'easeOutExpo');
 
