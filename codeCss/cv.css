@@ -82,6 +82,9 @@ ul{
 	height: auto;
 
 }
+.section {
+	height:800px;
+}
 .DpInfo {
 	padding: 5px;
 	position: relative;
