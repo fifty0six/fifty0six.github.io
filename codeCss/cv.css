@@ -79,15 +79,13 @@ ul{
 .section {
 	text-align: center;
 	color: #fff;
+	height: auto;
 
 }
-.DpInfo{
+.DpInfo {
 	padding: 5px;
 	position: relative;
 	bottom: -1200%;
-}
-.section1 {
- 
 }
 .section2 .pInfo {
 	/*position: relative;
@@ -163,19 +161,18 @@ header{
 
 /*bg-section1*/
 
-.bg-section1 .large-header {
-	background: #CCCCFF;
-}
+
 .large-header {
+	background: #CCCCFF;
 	position: relative;
 	width: 100%;
- 	overflow: hidden;
+	overflow: hidden;
 	z-index: 1;
 }
 canvas{
 	display: inline-block;
 }
-.bg-section1 .main-title {
+.section1 .main-title {
 
 	position: absolute;
 	top:55%;
@@ -183,7 +180,7 @@ canvas{
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 }
-.bg-section1 .cv-title {
+.section1 .cv-title {
 	margin: 0 auto;
 	padding: 10px 40px;
 	border: 10px double #f9f1e9;
@@ -193,7 +190,7 @@ canvas{
 	text-align: center;
 
 }
-.bg-section1 .main-title .personal-info{
+.section1 .main-title .personal-info{
 	margin-top: 20px;
 	font-size: 20px;
 	color: #fff;
