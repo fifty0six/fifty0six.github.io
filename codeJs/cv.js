@@ -26,7 +26,7 @@ function showSkill(){
 /***********************************************************************************************/
 /****fullpage.js调用****/
 function fullpage(){
-	$(function(){
+
 	$('#dowebok').fullpage({
 		sectionsColor: ['#1bbc9b', '#CCFFCC', '#99CCCC', '#9999FF','#99CCFF'],
 		navigation: true,
@@ -161,7 +161,7 @@ function fullpage(){
 
     autoScrolling();
 
-});
+
 };
 
 /***********************************************************************************************/
