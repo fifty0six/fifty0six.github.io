@@ -87,7 +87,7 @@ ul{
 	bottom: -1200%;
 }
 .section1 {
-	height:800px;	
+ 
 }
 .section2 .pInfo {
 	/*position: relative;
@@ -169,7 +169,7 @@ header{
 .large-header {
 	position: relative;
 	width: 100%;
-	overflow: hidden;
+ 
 	z-index: 1;
 }
 canvas{
