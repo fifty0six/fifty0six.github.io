@@ -26,6 +26,7 @@ function showSkill(){
 /***********************************************************************************************/
 /****fullpage.js调用****/
 function fullpage(){
+	$(function(){
 	$('#dowebok').fullpage({
 		sectionsColor: ['#1bbc9b', '#CCFFCC', '#99CCCC', '#9999FF','#99CCFF'],
 		navigation: true,
@@ -145,9 +146,24 @@ function fullpage(){
 			}
 		}
 	});
+	$(window).resize(function(){
+        autoScrolling();
+    	});
+
+    	function autoScrolling(){
+        var $ww = $(window).width();
+        if($ww < 320){
+            $.fn.fullpage.setAutoScrolling(false);
+        } else {
+            $.fn.fullpage.setAutoScrolling(true);
+        }
+    }
+
+    autoScrolling();
 
 
 };
+});
 /***********************************************************************************************/
 
 /****绘制背景函数****/
