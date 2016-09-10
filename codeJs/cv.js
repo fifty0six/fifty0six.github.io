@@ -28,7 +28,7 @@ function showSkill(){
 function fullpage(){
 
 	$('#dowebok').fullpage({
-		sectionsColor: ['#1bbc9b', '#CCFFCC', '#99CCCC', '#9999FF','#99CCFF'],
+		sectionsColor: ['#CCCCFF', '#CCFFCC', '#99CCCC', '#9999FF','#99CCFF'],
 		navigation: true,
 		navigationTooltips:['首页','关于我','专业技能','项目经验','校园经历'],
 		menu:'#head',
