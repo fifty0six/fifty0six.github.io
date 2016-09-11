@@ -79,12 +79,10 @@ ul{
 .section {
 	text-align: center;
 	color: #fff;
-	/*height: auto;*/
+	height: 800px;
 
 }
-.section1 {
-	 
-}
+
 .DpInfo {
 	padding: 5px;
 	position: relative;
