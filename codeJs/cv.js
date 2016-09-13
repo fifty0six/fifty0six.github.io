@@ -1,8 +1,8 @@
 /****函数调用区****/
-bg();
+fullpage();
 showSkill();
 QRshow();
-fullpage();
+bg();
 /***********************************************************************************************/
 /****二维码显示函数****/
 function QRshow(){
@@ -26,8 +26,9 @@ function showSkill(){
 /***********************************************************************************************/
 /****fullpage.js调用****/
 function fullpage(){
+
 	$('#dowebok').fullpage({
-		sectionsColor: ['#1bbc9b', '#CCFFCC', '#99CCCC', '#9999FF','#99CCFF'],
+		sectionsColor: ['#CCCCFF', '#CCFFCC', '#99CCCC', '#9999FF','#99CCFF'],
 		navigation: true,
 		navigationTooltips:['首页','关于我','专业技能','项目经验','校园经历'],
 		menu:'#head',
@@ -40,7 +41,7 @@ function fullpage(){
 				$(".border-title").animate({width:'30%'},1000,function(){
 					$(".border-title p").slideDown(400);
 				});
-				$('.DpInfo').delay(500).animate({
+				$('.DpInfo').delay(1000).animate({
 					bottom: '0',
 				}, 1500, 'easeOutExpo');
 
@@ -147,7 +148,9 @@ function fullpage(){
 	});
 
 
+
 };
+
 /***********************************************************************************************/
 
 /****绘制背景函数****/
