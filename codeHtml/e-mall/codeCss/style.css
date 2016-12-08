@@ -1,0 +1,79 @@
+@charset "utf-8";
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, big, em, font, img, strong, tt, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, input {
+	padding:0;
+	margin: 0;
+	}
+body {
+	font-family: SimSun, Arial, Verdana, Helvetica, sans-serif;
+	color:#333;
+	background:#fff;
+	font-size:12px;
+	}
+address, caption, cite, code, dfn, em, strong, th, var { 
+    font-weight:normal; 
+    font-style:normal;
+	}
+fieldset, img {
+	border:0;
+	}
+table {
+    border-collapse:collapse; 
+    border-spacing:0;
+	}
+h1, h2, h3, h4, h5, h6 {
+	 font-weight:normal;
+	 font-size:100%;
+	 }
+a {
+	cursor:pointer;
+	text-decoration:none;
+	}
+ul {
+	list-style-position:outside;
+	list-style:none;
+	}
+textarea {
+	resize:none;
+	}
+.clear {
+	height:0px;
+	line-height:0px;
+	font-size:0;
+	overflow:hidden;
+	clear:both;
+	float:none;
+	}
+.color_f {
+	color:#fff;
+	}
+.color_0 {
+	color:#000;
+	}
+.color_c {
+	color:#ccc;
+	}
+.color_3 {
+	color:#333;
+	}
+.color_6 {
+	color:#666;
+	}
+.color_9 {
+	color:#999;
+	}
+.color_b {
+	color:#096cb2;
+	}
+.color_ff4 {
+	color:#FF4A08;
+	}
+
+.color_f7 {
+	color:#f7f7f7;
+	}
+.hidden{
+	display: none !important;
+}
+.ml18px{
+	margin-left: 18.333px;;
+}
